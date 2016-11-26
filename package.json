@@ -2,18 +2,21 @@
   "name": "primitive-path",
   "version": "1.0.0",
   "description": "Finds the path to the primitive values in a nested object.",
+  "author": "Vivek Poddar <vivekimsit@gmail.com> (vivekpoddar.com)",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vivekimsit/primitive-path.git"
   },
-  "author": "Vivek Poddar <vivekimsit@gmail.com> (vivekpoddar.com)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vivekimsit/primitive-path/issues"
   },
-  "homepage": "https://github.com/vivekimsit/primitive-path#readme"
+  "homepage": "https://github.com/vivekimsit/primitive-path#readme",
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
 }
