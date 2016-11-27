@@ -27,7 +27,7 @@ module.exports = function findPrimitives(obj, callback, propName, path=[]) {
         return true;
       }
     } else {
-      if (findPrimitives(obj[name], callback, name,  path)) {
+      if (findPrimitives(obj[name], callback, name, path)) {
         return true;
       }
     }
