@@ -12,6 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/vivekimsit/primitive-path.git"
   },
+ "keywords": [
+    "content",
+    "data",
+    "object",
+    "primitive",
+    "property",
+    "tree"
+  ],
   "bugs": {
     "url": "https://github.com/vivekimsit/primitive-path/issues"
   },
